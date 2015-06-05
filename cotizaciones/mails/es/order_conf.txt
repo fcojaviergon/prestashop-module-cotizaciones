@@ -1,0 +1,13 @@
+	{firstname} {lastname}, gracias por realizar su pedido en {shop_name}!
+		
+	Detalles de la Cotización
+
+	Pedido: {order_name} realizado el {date}
+	
+	Total Productos: {total_products}
+		
+	If you have guest account, you can follow your order at this page: {shop_url}guest-tracking.php
+	
+	Gracias por cotizar en {shop_name}.
+
+	{shop_url} 2013®

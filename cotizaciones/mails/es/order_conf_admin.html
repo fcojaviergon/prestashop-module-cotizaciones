@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/1999/REC-html401-19991224/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Mensaje desde {shop_name}</title>
+</head>
+<body>
+		<table style="font-family: Verdana,sans-serif; font-size: 11px; color: #374953; width: 550px;">
+<tbody>
+<tr>
+<td align="left"><a title="{shop_name}" href="{shop_url}"><img style="border: none;" src="{shop_logo}" alt="{shop_name}" /></a></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">El usuario: <strong style="color: #BF2406;">{firstname} {lastname}</strong> realizo un pedido de Cotización a <strong>{shop_name}</strong>.</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left" style="background-color: #473367; color: #000; font-size: 12px; font-weight: bold; padding: 0.5em 1em;">Detalles del usuario</td>
+</tr>
+
+<tr>
+<td align="left">El correo: <strong style="color: #BF2406;">{email}</td>
+</tr>
+<tr>
+<td align="left">Dirección: <strong style="color: #BF2406;">{delivery_address1}</td>
+</tr>
+<tr>
+<td align="left">Ciudad: <strong style="color: #BF2406;">{delivery_city}</td>
+</tr>
+<tr>
+<td align="left">Region: <strong style="color: #BF2406;">{delivery_country}</td>
+</tr>
+<tr>
+<td align="left">Comuna: <strong style="color: #BF2406;">{delivery_state}</td>
+</tr>
+<tr>
+<td align="left">Telefono: <strong style="color: #BF2406;">{delivery_phone}</td>
+</tr>
+<tr>
+<td align="left">rut: <strong style="color: #BF2406;">{delivery_dni}</td>
+</tr>
+<tr>
+<td align="left">Empresa: <strong style="color: #BF2406;">{delivery_company}</td>
+</tr>
+<tr>
+<td align="left">RUT Empresa: <strong style="color: #BF2406;">{invoice_vat_number}</td>
+</tr>
+
+
+<tr>
+<td align="left" style="background-color: #473367; color: #000; font-size: 12px; font-weight: bold; padding: 0.5em 1em;">Detalles de la Cotización</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">Cotización: <strong><span style="color: #BF2406;">{order_name}</span> realizado el {date}</strong></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="left">
+<table style="width: 100%; font-size: 11px; color: #374953;">
+<!-- Title -->
+<tbody>
+<tr style="background-color: #b9babe; text-align: center;">
+<th style="width: 15%; padding: 1em 0;">Referencia</th><th>Producto</th>
+<th style="width: 15%;">&nbsp;</th>
+<th style="width: 15%;">Cantidad</th><th style="width: 20%;">&nbsp;</th>
+</tr>
+<!-- Products -->{products} {discounts} <!-- Footer: prices -->
+<tr style="text-align: right;">
+<td>&nbsp;</td>
+<td style="background-color: #b9babe; padding: 0.6em 0.4em;" colspan="4">Productos</td>
+<td style="background-color: #b9babe; padding: 0.6em 0.4em;">{total_products}</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div style="font-family: Verdana,sans-serif; font-size: 11px; color: #374953;padding-top:17px;font-weight: bold;">*Todos los precios incluyen IVA</div>
+
+</body>
+</html>
